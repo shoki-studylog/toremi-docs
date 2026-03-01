@@ -1,1 +1,1 @@
-# toremi-content-manager
+# toremi-tocs
