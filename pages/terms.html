@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service | Trend Addict Toremi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --pink: #ff2d6d;
+            --dark: #0d0d0d;
+            --gray: #1a1a1a;
+            --text: #f0f0f0;
+            --muted: #888;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--dark);
+            color: var(--text);
+            font-family: 'Noto Sans JP', sans-serif;
+            min-height: 100vh;
+        }
+
+        header {
+            background: var(--gray);
+            border-bottom: 2px solid var(--pink);
+            padding: 24px 40px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 28px;
+            color: var(--pink);
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: var(--text);
+        }
+
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 13px;
+            margin-left: auto;
+            border: 1px solid var(--muted);
+            padding: 6px 14px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--pink);
+            border-color: var(--pink);
+        }
+
+        main {
+            max-width: 760px;
+            margin: 60px auto;
+            padding: 0 24px 80px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: var(--pink);
+            color: #fff;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding: 4px 12px;
+            border-radius: 2px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .updated {
+            color: var(--muted);
+            font-size: 13px;
+            margin-bottom: 48px;
+            border-left: 3px solid var(--pink);
+            padding-left: 12px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: var(--gray);
+            border-radius: 8px;
+            padding: 28px 32px;
+            border-left: 4px solid var(--pink);
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--pink);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: attr(data-num);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 24px;
+            color: var(--muted);
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.9;
+            color: #ccc;
+        }
+
+        p+p {
+            margin-top: 12px;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 12px;
+            padding: 32px;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">TOREMI<span>chan</span></div>
+        <nav><a href="privacy.html">Privacy Policy →</a></nav>
+    </header>
+
+    <main>
+        <div class="badge">Legal</div>
+        <h1>Terms of Service</h1>
+        <p class="updated">Last Updated: January 1, 2025</p>
+
+        <section>
+            <h2 data-num="01">Overview</h2>
+            <p>These Terms of Service ("Terms") govern the use of the web application operated by Trend Addict Toremi
+                ("the Operator"). This application is developed and used solely for personal content management purposes
+                by the Operator.</p>
+        </section>
+
+        <section>
+            <h2 data-num="02">Personal Use Only</h2>
+            <p>This application is intended exclusively for the personal use of the Operator. It is not a public-facing
+                service and is not offered to third parties. No user accounts, registrations, or public access are
+                provided.</p>
+        </section>
+
+        <section>
+            <h2 data-num="03">Service Description</h2>
+            <p>This application connects to TikTok and YouTube APIs to manage, schedule, and analyze content for the
+                Operator's own channels. All API usage complies with TikTok's and YouTube's respective Terms of Service
+                and Developer Policies.</p>
+        </section>
+
+        <section>
+            <h2 data-num="04">Data Handling</h2>
+            <p>Any data accessed through this application — including platform credentials, content metadata, and
+                analytics — is used solely for the Operator's personal content management and is never shared with or
+                disclosed to third parties.</p>
+        </section>
+
+        <section>
+            <h2 data-num="05">Disclaimer</h2>
+            <p>This application is provided "as is" for personal use. The Operator assumes no liability for any
+                disruptions, data loss, or issues arising from the use of third-party APIs.</p>
+        </section>
+
+        <section>
+            <h2 data-num="06">Changes to Terms</h2>
+            <p>These Terms may be updated at any time. The latest version will always be available on this page.</p>
+        </section>
+
+        <section>
+            <h2 data-num="07">Contact</h2>
+            <p>For any inquiries regarding these Terms, please reach out via the Operator's official social media
+                channels.</p>
+        </section>
+    </main>
+
+    <footer>© 2025 Trend Addict Toremi. All rights reserved.</footer>
+</body>
+
+</html>

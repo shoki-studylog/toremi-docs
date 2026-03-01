@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy | Trend Addict Toremi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --pink: #ff2d6d;
+            --dark: #0d0d0d;
+            --gray: #1a1a1a;
+            --text: #f0f0f0;
+            --muted: #888;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: var(--dark);
+            color: var(--text);
+            font-family: 'Noto Sans JP', sans-serif;
+            min-height: 100vh;
+        }
+
+        header {
+            background: var(--gray);
+            border-bottom: 2px solid var(--pink);
+            padding: 24px 40px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 28px;
+            color: var(--pink);
+            letter-spacing: 2px;
+        }
+
+        .logo span {
+            color: var(--text);
+        }
+
+        nav a {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 13px;
+            margin-left: auto;
+            border: 1px solid var(--muted);
+            padding: 6px 14px;
+            border-radius: 4px;
+            transition: all 0.2s;
+        }
+
+        nav a:hover {
+            color: var(--pink);
+            border-color: var(--pink);
+        }
+
+        main {
+            max-width: 760px;
+            margin: 60px auto;
+            padding: 0 24px 80px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #1a1a1a;
+            color: var(--pink);
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            padding: 4px 12px;
+            border-radius: 2px;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            border: 1px solid var(--pink);
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .updated {
+            color: var(--muted);
+            font-size: 13px;
+            margin-bottom: 48px;
+            border-left: 3px solid var(--pink);
+            padding-left: 12px;
+        }
+
+        section {
+            margin-bottom: 40px;
+            background: var(--gray);
+            border-radius: 8px;
+            padding: 28px 32px;
+            border-left: 4px solid var(--pink);
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            color: var(--pink);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2::before {
+            content: attr(data-num);
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 24px;
+            color: var(--muted);
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.9;
+            color: #ccc;
+        }
+
+        p+p {
+            margin-top: 12px;
+        }
+
+        .highlight {
+            background: rgba(255, 45, 109, 0.08);
+            border: 1px solid rgba(255, 45, 109, 0.3);
+            border-radius: 6px;
+            padding: 16px 20px;
+            margin-top: 16px;
+            font-size: 13px;
+            color: #ddd;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--muted);
+            font-size: 12px;
+            padding: 32px;
+            border-top: 1px solid #222;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">TOREMI<span>chan</span></div>
+        <nav><a href="terms.html">Terms of Service →</a></nav>
+    </header>
+
+    <main>
+        <div class="badge">Privacy</div>
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last Updated: January 1, 2025</p>
+
+        <section>
+            <h2 data-num="01">Introduction</h2>
+            <p>This Privacy Policy describes how Trend Addict Toremi ("the Operator") handles information in connection
+                with the personal web application used for managing TikTok and YouTube content. This application is for
+                the Operator's personal use only and does not collect data from any third-party users.</p>
+        </section>
+
+        <section>
+            <h2 data-num="02">Information Accessed</h2>
+            <p>The application may access the following types of information through TikTok and YouTube APIs:</p>
+            <div class="highlight">
+                · Account information (channel name, profile data)<br>
+                · Content metadata (titles, descriptions, upload dates, tags)<br>
+                · Performance analytics (views, likes, comments, engagement)<br>
+                · Access tokens required for API authentication
+            </div>
+        </section>
+
+        <section>
+            <h2 data-num="03">How Information Is Used</h2>
+            <p>All accessed information is used exclusively by the Operator for the following personal purposes:</p>
+            <div class="highlight">
+                · Managing and scheduling content across platforms<br>
+                · Reviewing channel performance and analytics<br>
+                · Organizing and archiving content data<br>
+                · Improving personal content creation workflows
+            </div>
+        </section>
+
+        <section>
+            <h2 data-num="04">No Third-Party Sharing</h2>
+            <p>The Operator does not sell, share, rent, or disclose any accessed data to third parties. All data remains
+                private and is used solely by the Operator for personal content management.</p>
+        </section>
+
+        <section>
+            <h2 data-num="05">Third-Party APIs</h2>
+            <p>This application integrates with the TikTok API and YouTube Data API. Data retrieved through these APIs
+                is subject to their respective privacy policies. The Operator complies with all applicable platform
+                developer agreements.</p>
+        </section>
+
+        <section>
+            <h2 data-num="06">Data Storage & Security</h2>
+            <p>Any stored data (such as access tokens or cached content metadata) is kept locally or in a private
+                environment accessible only to the Operator. No data is stored on public servers or exposed to outside
+                parties.</p>
+        </section>
+
+        <section>
+            <h2 data-num="07">Changes to This Policy</h2>
+            <p>This Privacy Policy may be updated at any time. The most current version will always be available on this
+                page.</p>
+        </section>
+
+        <section>
+            <h2 data-num="08">Contact</h2>
+            <p>For any questions regarding this Privacy Policy, please contact the Operator through the official social
+                media channels.</p>
+        </section>
+    </main>
+
+    <footer>© 2025 Trend Addict Toremi. All rights reserved.</footer>
+</body>
+
+</html>
