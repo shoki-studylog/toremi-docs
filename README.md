@@ -1,1 +1,1 @@
-# toremi-tocs
+# toremi-docs
